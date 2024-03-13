@@ -1,0 +1,30 @@
+We offer a lower tier free plan, and we offer a paid plan (at $20/month) which includes advanced features of our product. However, most users stick to the free plan and do not upgrade to paid plan. 
+
+We decided to run an A/B test to motivate users to upgrade with an offer. The dataset contains the results of an A/B test, where we gave users who had not yet signed up for a paid plan after three months of first use a "first month free" offer to improve signup rates.
+
+
+Can you help address the following questions:
+
+(1) What was the impact on paid plan signups?
+
+(2) What was the impact on paid plan retention?
+
+(3) How do we assess the statistical reliability of our conclusions? 
+
+(4) Some have a theory about how users differ by assignment/experiment day of week and want to know whether we saw a difference in treatment effect by the day of week users were assigned. Did we, and how
+can we determine whether the difference in treatment effect is noise or signal?
+
+(5) Have we run this experiment for long enough to get representative results? Would you expect anything to change if we ran it for longer?
+
+(6) Let's think about the ROI of the treatment. What do we need to believe about user lifetime in order to expect to break even? Please ignore auxiliary costs and do "whiteboard math" here to illustrate your
+thinking at a high level. However, please do note any major assumptions and make explicit any calculations.
+
+(7) Should we ship this treatment? Assume we can iterate and improve on it whether we ship it or not, so please make a recommendation based on the current treatment and current target audience.
+
+(8) Let's suppose we'd like to run a larger follow-up experiment with the same treatment, but targeting a subset of this experiment's eligible audience. We'd like to base that targeting on what we learned
+from this experiment. What would be a good target audience?
+
+
+Please format your analysis in a way that is easy to understand for a broad audience. Please also include the details necessary from a data science perspective to understand your approach.
+
+Please return your detailed submission in a DOC format - and include full code used (the Python notebook) alongside it.
